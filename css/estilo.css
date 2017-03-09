@@ -1,0 +1,147 @@
+/* Limpar as formataçoes padrao */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* BODY */
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkblue;
+}
+
+h1{
+    font-size: 28px;
+    font-family: 'Oswald', sans-serif;
+    padding: 3px;
+    border: 0px solid red;
+}
+
+/* Menu do Topo - definição da barra de menu: cor, bordas, altura e posicionamento */
+#top_menu{
+    background-color: white;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    height: 50px;
+    margin-top: 15px;
+}
+
+/* Area de Menu - Definição da área de localização do conteúdo do menu */
+#menu_area{
+  width: 800px;
+  margin: 0 auto;
+  border: 0px solid red;
+}
+
+/* links não visitados */
+#menu_area a:link{
+    color: black;
+    text-decoration: none;
+}
+
+/* links visitados */
+#menu_area a:visited {
+    color: black;
+}
+
+/* ao passar o cursor em cima */
+#menu_area a:hover {
+    color: black;
+}
+
+/* quando clickado */
+#menu_area a:active {
+    color: black;
+}
+
+/* Definição da localização do logo dentro da área de menu */
+#menu_logo{
+  float: left;
+}
+
+/* classe para definir cor */
+.blues{
+    color: blue;
+}
+
+/* Lista de Menu - Definição de borda, espaçamento e localizaçao dentro da áera de menu */
+#menu_list {
+  padding: 10px 0px 10px 0px;
+  border: 0px solid black;
+  float: right;
+}
+
+/* lista não ordenada com disposição horizontal */
+#menu_list ul {
+	padding:0px;
+	margin:0px;
+  display: inline;
+}
+/* elemento de lista não ordenada com disposição horizontal */
+#menu_list ul li { 
+  display: inline; 
+}
+
+/* formatação padrão links */
+#menu_list ul li a {
+	padding: 5px;
+	display: inline;
+ 
+  /* propriedades visuais do link */
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-left: 7px solid white;
+}
+
+/* links não visitados */
+#menu_list ul li a:link{
+    color: black;
+}
+
+/* links visitados */
+#menu_list ul li a:visited {
+    color: black;
+}
+
+/* ao passar o cursor em cima */
+#menu_list ul li a:hover {
+  color: blue;
+  border-left: 7px solid black;
+}
+
+/* quando clickado */
+#menu_list ul li a:active {
+  color: blue;
+	border-left: 7px solid blue;
+}
+
+
+/* Area Principal - Definição da área de Principal do Site */
+#post_area{
+  width: 780px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: white;
+}
+
+h2{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    padding: 5px;
+    border-left: 7px solid blue;
+}
+
+.post_data{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: right;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    display: block;
+}
+
