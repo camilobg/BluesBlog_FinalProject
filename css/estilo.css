@@ -25,6 +25,9 @@ h1{
     border-bottom: 2px solid gray;
     height: 50px;
     margin-top: 15px;
+
+    position: fixed;
+    width: 100%;
 }
 
 /* Area de Menu - Definição da área de localização do conteúdo do menu */
@@ -67,20 +70,20 @@ h1{
 
 /* Lista de Menu - Definição de borda, espaçamento e localizaçao dentro da áera de menu */
 #menu_list {
-  padding: 10px 0px 10px 0px;
-  border: 0px solid black;
-  float: right;
+    padding: 10px 0px 10px 0px;
+    border: 0px solid black;
+    float: right;
 }
 
 /* lista não ordenada com disposição horizontal */
 #menu_list ul {
 	padding:0px;
 	margin:0px;
-  display: inline;
+    display: inline;
 }
 /* elemento de lista não ordenada com disposição horizontal */
 #menu_list ul li { 
-  display: inline; 
+    display: inline; 
 }
 
 /* formatação padrão links */
@@ -88,14 +91,14 @@ h1{
 	padding: 5px;
 	display: inline;
  
-  /* propriedades visuais do link */
-  font-family: 'Oswald', sans-serif;
-  font-size: 20px;
-  font-weight: 900;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 1px;
-  border-left: 7px solid white;
+    /* propriedades visuais do link */
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-left: 7px solid white;
 }
 
 /* links não visitados */
@@ -110,38 +113,77 @@ h1{
 
 /* ao passar o cursor em cima */
 #menu_list ul li a:hover {
-  color: blue;
-  border-left: 7px solid black;
+    color: blue;
+    border-left: 7px solid black;
 }
 
 /* quando clickado */
 #menu_list ul li a:active {
-  color: blue;
+    color: blue;
 	border-left: 7px solid blue;
 }
-
 
 /* Area Principal - Definição da área de Principal do Site */
 #post_area{
   width: 780px;
-  margin: 10px auto;
+  margin: 65px auto;
+}
+
+#post{
   padding: 10px;
+  margin-bottom: 10px;
   background-color: white;
 }
 
+/* Titulo do post */
 h2{
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
     padding: 5px;
     border-left: 7px solid blue;
 }
-
-.post_data{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    text-align: right;
-    border-bottom: 1px solid gray;
-    margin-bottom: 10px;
-    display: block;
+/* Are reservada para autor e data do post */
+#post_info_area{
+  width: 760px;
+  height: 15px;
+  margin: 5px auto;
+  padding-bottom: 3px;
+  background-color: white;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
 }
 
+/* Quem fez o post */
+#post_by{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: gray;
+    float: left;
+}
+
+/* Data do post */
+#post_date{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: gray;
+    float: right;
+}
+
+/* Imagem do post */
+.post_img{
+    height: 150px;
+    width: 200px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+/* Paragrafo do post */
+.post_p {
+    font-size: 14px;
+    text-align: justify;
+}
