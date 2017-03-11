@@ -24,9 +24,8 @@ h1{
     border-top: 2px solid gray;
     border-bottom: 2px solid gray;
     height: 50px;
-    margin-top: 15px;
-
     position: fixed;
+    top: 10px;
     width: 100%;
 }
 
@@ -126,7 +125,7 @@ h1{
 /* Area Principal - Definição da área de Principal do Site */
 #post_area{
   width: 780px;
-  margin: 65px auto;
+  margin: 73px auto 10px auto;
 }
 
 #post{
